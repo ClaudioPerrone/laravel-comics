@@ -1,0 +1,34 @@
+.footer {
+    background-color: $brand-secondary;
+}    
+
+button {
+    border: 3px solid black;
+    color: white;
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+
+h4 {
+    color: grey;
+    line-height: 40px;
+}
+
+.first-footer {
+    background-image: url("../src/assets/img/footer-bg.jpg");
+}
+
+.list {
+    color: white;
+
+    li {
+        list-style: none;
+    }
+}
+
+.col-8 {
+    background-image: url("../src/assets/img/dc-logo-bg.png");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 70%;
+}
