@@ -1,8 +1,6 @@
-@use './partials/variables' as *;
-@use './partials/header';
-
 @import '~bootstrap/scss/bootstrap';
 
-h1 {
-    color: $brand_primary;
-}
+@import 'partials/variables';
+@import 'partials/header';
+@import 'partials/main';
+@import 'partials/footer';

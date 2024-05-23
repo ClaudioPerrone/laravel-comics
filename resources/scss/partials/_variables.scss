@@ -1,1 +1,28 @@
-$brand_primary: red;
+/* ------------------------
+
+        COLORS
+
+--------------------------*/
+$brand-primary: #0282f9;
+$brand-secondary: #303030;
+$brand-secondary-darker: #1c1c1c;
+/* ------------------------
+
+        SOCIAL
+
+--------------------------*/
+.circle {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 1px solid black;
+}
+
+.social-circle {
+        width: 100%;
+        height: 100%;
+        font-size: 25px;
+        object-fit: cover;
+        text-align: center;
+}
